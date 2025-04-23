@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Imóveis - Nelson's Ltda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
+    }
+    .imovel {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      max-width: 500px;
+    }
+    .imovel img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .botao {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Imóveis disponíveis</h1>
+
+  <div class="imovel">
+    <img src="https://via.placeholder.com/500x300" alt="Apartamento em Oyama">
+    <h2>Apartamento 2DK - Oyama</h2>
+    <p>Aluguel: ¥60.000<br>Local: Próximo à estação Oyama<br>Vaga de estacionamento incluída.</p>
+    <a class="botao" href="https://wa.me/818055121506?text=Olá,%20tenho%20interesse%20no%20apartamento%202DK%20em%20Oyama" target="_blank">Falar no WhatsApp</a>
+  </div>
+
+  <div class="imovel">
+    <img src="https://via.placeholder.com/500x300" alt="Casa em Utsunomiya">
+    <h2>Casa 3LDK - Utsunomiya</h2>
+    <p>Aluguel: ¥85.000<br>Local: Bairro tranquilo<br>Ideal para famílias, pet friendly.</p>
+    <a class="botao" href="https://wa.me/818055121506?text=Olá,%20tenho%20interesse%20na%20casa%203LDK%20em%20Utsunomiya" target="_blank">Falar no WhatsApp</a>
+  </div>
+
+</body>
+</html>
